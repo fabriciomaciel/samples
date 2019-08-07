@@ -1,0 +1,15 @@
+pluginManagement {
+    resolutionStrategy {
+    }
+    repositories {
+        maven {
+            url 'http://ci.tapaburaco.com.br/artifactory/maven-repo'
+            credentials {
+                username "$artifactoryUser"
+                password "$artifactoryPass"
+            }
+        }
+    }
+}
+
+
